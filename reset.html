@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reset</title>
+    <meta name="description"content="What is Netflix? Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries ..."/>
+    <link rel="apple-touch-icon" sizes="180x180" href="fiveicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fiveicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fiveicon/favicon-16x16.png">
+    <link rel="manifest" href="fiveicon/site.webmanifest">
+    <link rel="mask-icon" href="fiveicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1178px)" href="css/phone.css">
+    <script src="https://kit.fontawesome.com/a495114c24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <!--Header section start-->
+      <header class="head " >
+        <div class="header"id="head">
+           <nav class="containar nav">
+               <label for="check" class="checkbtn">
+                   <i class="fa-solid fa-bars" onclick="change()"></i>
+               </label>
+               
+               <div class="left-con">
+                <img src="photos/logo.png" alt="Netflix">
+                   <div class="menu">
+                    <ul id="ul"class="ul">
+                        <li><a id="active"href="index.html">Home</a></li>
+                        <li><a href="tv.html">Tv Shows</a></li>
+                        <li><a href="movies.html">Movies</a></li>
+                        <li><a href="N&P.html">News & Popular</a></li>
+                        <li><a href="mylist.html">My List</a></li>
+                        <li><a href="browByLng.html"> Browse by Language</a></li>
+                     </ul>
+                   </div>
+               </div>
+       
+               <div class="right-con">
+                   <img src="photos/search.png" alt="search">
+                   <img src="photos/notification.png" alt="notification">
+                   <img src="photos/user-icon.png" alt="user-icon" onclick="option()">
+                   <select name="account" id="user-icon">
+                    <option value="account">account</option>
+                    <option value="account">any</option>
+                    <option value="account">sorry</option>
+                    <option value="account">logout</option>
+                   </select>
+               </div>
+             </nav>
+        </div>
+   
+       </header>
+
+         <!--Header section end-->
+    
+         <script src="js/script.js" ></script>
+</body>
+</html>
